@@ -1,0 +1,991 @@
+2019-06-17 22:48:19 INFO  Main:28 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 22:48:19 INFO  Main:29 - Filling main diagonal of the matrix by multithreading...
+2019-06-17 22:57:13 INFO  Main:29 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 22:57:13 INFO  Main:30 - Filling main diagonal of the matrix by multithreading...
+2019-06-17 22:59:18 INFO  Main:29 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 22:59:18 INFO  Main:30 - Filling main diagonal of the matrix by multithreading...
+2019-06-17 22:59:18 INFO  Main:38 - The matrix after diagonal multithreading:
+2019-06-17 22:59:18 INFO  Main:39 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, -1156954911, -1156954911, -1156954911, -1156954911, -1156954911, 6, 7, 8, 9]
+[1, -1156954911, -1156954911, -1156954911, -1156954911, -1156954911, 6, 7, 8, 9]
+[1, -1156954911, -1156954911, -1156954911, -1156954911, -1156954911, 6, 7, 8, 9]
+[1, -1156954911, -1156954911, -1156954911, -1156954911, -1156954911, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:02:24 INFO  Main:29 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:02:24 INFO  Main:30 - Filling main diagonal of the matrix by multithreading...
+2019-06-17 23:02:24 INFO  Main:38 - The matrix after diagonal multithreading:
+2019-06-17 23:02:24 INFO  Main:39 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 9, 9, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:09:24 INFO  Main:29 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:09:24 INFO  Main:30 - Filling main diagonal of the matrix by multithreading...
+2019-06-17 23:09:24 INFO  Main:38 - The matrix after diagonal multithreading:
+2019-06-17 23:09:24 INFO  Main:39 - [4, 4, 4, 4, 4, 5, 6, 7, 8, 9]
+[4, 4, 4, 4, 4, 5, 6, 7, 8, 9]
+[4, 4, 4, 4, 4, 5, 6, 7, 8, 9]
+[4, 4, 4, 4, 4, 5, 6, 7, 8, 9]
+[4, 4, 4, 4, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:10:52 INFO  Main:29 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:10:52 INFO  Main:30 - Filling main diagonal of the matrix by multithreading...
+2019-06-17 23:10:52 INFO  Main:38 - The matrix after diagonal multithreading:
+2019-06-17 23:10:52 INFO  Main:39 - [2, 2, 2, 8, 4, 5, 6, 7, 8, 9]
+[2, 2, 2, 8, 4, 5, 6, 7, 8, 9]
+[2, 2, 2, 8, 4, 5, 6, 7, 8, 9]
+[8, 8, 8, 8, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:11:35 INFO  Main:29 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:11:35 INFO  Main:30 - Filling main diagonal of the matrix by multithreading...
+2019-06-17 23:11:35 INFO  Main:38 - The matrix after diagonal multithreading:
+2019-06-17 23:11:35 INFO  Main:39 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:20:23 INFO  Main:29 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:20:23 INFO  Main:30 - Filling main diagonal of the matrix by multithreading...
+
+2019-06-17 23:20:23 INFO  Main:38 - The matrix after diagonal multithreading:
+2019-06-17 23:20:23 INFO  Main:39 - 
+[0, 63, 91, 3, 4, 5, 6, 7, 8, 9]
+[1, 91, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:21:55 INFO  Main:29 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:21:55 INFO  Main:30 - Filling main diagonal of the matrix by multithreading...
+
+2019-06-17 23:21:55 INFO  Main:38 - The matrix after diagonal multithreading:
+2019-06-17 23:21:55 INFO  Main:39 - 
+[0, 40, 74, 53, 49, 0, 6, 7, 8, 9]
+[40, 74, 53, 49, 0, 5, 6, 7, 8, 9]
+[74, 53, 49, 0, 4, 5, 6, 7, 8, 9]
+[53, 49, 0, 0, 4, 5, 6, 7, 8, 9]
+[49, 0, 3, 4, 0, 5, 6, 7, 8, 9]
+[0, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:36:42 INFO  Main:31 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:36:42 INFO  Main:32 - Filling main diagonal of the matrix by multithreading...
+
+2019-06-17 23:36:42 INFO  main:27 - Thread1 started work for 1
+2019-06-17 23:36:42 INFO  main:27 - Thread1 started work for 1
+2019-06-17 23:36:42 INFO  main:31 - Thread1 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread1 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread1 started work for 6
+2019-06-17 23:36:42 INFO  main:27 - Thread3 started work for 3
+2019-06-17 23:36:42 INFO  main:27 - Thread3 started work for 3
+2019-06-17 23:36:42 INFO  main:27 - Thread2 started work for 2
+2019-06-17 23:36:42 INFO  main:27 - Thread2 started work for 2
+2019-06-17 23:36:42 INFO  main:27 - Thread2 started work for 2
+2019-06-17 23:36:42 INFO  main:27 - Thread2 started work for 2
+2019-06-17 23:36:42 INFO  main:31 - Thread2 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread2 started work for 2
+2019-06-17 23:36:42 INFO  main:27 - Thread1 started work for 1
+2019-06-17 23:36:42 INFO  main:27 - Thread1 started work for 1
+2019-06-17 23:36:42 INFO  Main:40 - The matrix after diagonal multithreading:
+2019-06-17 23:36:42 INFO  main:27 - Thread1 started work for 1
+2019-06-17 23:36:42 INFO  main:27 - Thread1 started work for 6
+2019-06-17 23:36:42 INFO  main:31 - Thread1 finished work
+2019-06-17 23:36:42 INFO  Main:41 - 
+[0, 40, 20, 24, 4, 5, 44, 7, 8, 9]
+[40, 20, 24, 3, 4, 44, 6, 7, 8, 9]
+[20, 24, 0, 3, 44, 5, 6, 7, 8, 9]
+[24, 2, 3, 44, 4, 5, 6, 7, 8, 9]
+[1, 2, 44, 4, 0, 5, 6, 7, 8, 9]
+[1, 44, 3, 4, 5, 0, 6, 7, 8, 9]
+[44, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:36:42 INFO  main:31 - Thread1 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread1 started work for 6
+2019-06-17 23:36:42 INFO  main:31 - Thread1 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread2 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread2 started work for 7
+2019-06-17 23:36:42 INFO  main:31 - Thread2 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread5 started work for 5
+2019-06-17 23:36:42 INFO  main:31 - Thread2 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread5 started work for 5
+2019-06-17 23:36:42 INFO  main:31 - Thread5 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread5 started work for 10
+2019-06-17 23:36:42 INFO  main:27 - Thread5 started work for 5
+2019-06-17 23:36:42 INFO  main:31 - Thread5 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread5 started work for 5
+2019-06-17 23:36:42 INFO  main:31 - Thread2 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread5 started work for 5
+2019-06-17 23:36:42 INFO  main:27 - Thread4 started work for 4
+2019-06-17 23:36:42 INFO  main:31 - Thread4 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread3 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread4 started work for 4
+2019-06-17 23:36:42 INFO  main:27 - Thread4 started work for 4
+2019-06-17 23:36:42 INFO  main:31 - Thread3 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread4 started work for 4
+2019-06-17 23:36:42 INFO  main:27 - Thread4 started work for 4
+2019-06-17 23:36:42 INFO  main:31 - Thread1 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread3 started work for 3
+2019-06-17 23:36:42 INFO  main:27 - Thread3 started work for 3
+2019-06-17 23:36:42 INFO  main:27 - Thread3 started work for 3
+2019-06-17 23:36:42 INFO  main:31 - Thread3 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread3 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread4 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread4 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread3 started work for 8
+2019-06-17 23:36:42 INFO  main:31 - Thread4 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread4 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread3 started work for 8
+2019-06-17 23:36:42 INFO  main:27 - Thread4 started work for 9
+2019-06-17 23:36:42 INFO  main:31 - Thread5 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread2 started work for 7
+2019-06-17 23:36:42 INFO  main:31 - Thread5 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread5 started work for 10
+2019-06-17 23:36:42 INFO  main:27 - Thread2 started work for 7
+2019-06-17 23:36:42 INFO  main:31 - Thread2 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread5 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread5 started work for 10
+2019-06-17 23:36:42 INFO  main:27 - Thread2 started work for 7
+2019-06-17 23:36:42 INFO  main:31 - Thread2 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread2 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread2 started work for 7
+2019-06-17 23:36:42 INFO  main:27 - Thread1 started work for 6
+2019-06-17 23:36:42 INFO  main:31 - Thread1 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread1 started work for 6
+2019-06-17 23:36:42 INFO  main:31 - Thread1 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread1 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread1 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread2 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread5 started work for 10
+2019-06-17 23:36:42 INFO  main:31 - Thread2 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread5 started work for 10
+2019-06-17 23:36:42 INFO  main:31 - Thread4 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread3 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread4 started work for 9
+2019-06-17 23:36:42 INFO  main:27 - Thread4 started work for 9
+2019-06-17 23:36:42 INFO  main:31 - Thread3 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread4 started work for 9
+2019-06-17 23:36:42 INFO  main:27 - Thread4 started work for 9
+2019-06-17 23:36:42 INFO  main:27 - Thread3 started work for 8
+2019-06-17 23:36:42 INFO  main:27 - Thread3 started work for 8
+2019-06-17 23:36:42 INFO  main:31 - Thread3 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread3 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread3 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread4 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread4 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread4 finished work
+2019-06-17 23:36:42 INFO  main:31 - Thread4 finished work
+2019-06-17 23:36:42 INFO  main:27 - Thread3 started work for 8
+2019-06-17 23:36:42 INFO  main:31 - Thread3 finished work
+2019-06-17 23:43:42 INFO  Main:31 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:43:42 INFO  Main:32 - Filling main diagonal of the matrix by multithreading...
+
+2019-06-17 23:43:42 INFO  main:23 - Thread1 started work for 1
+2019-06-17 23:43:42 INFO  main:29 - Thread1 finished work for 1
+2019-06-17 23:43:42 INFO  main:23 - Thread1 started work for 6
+2019-06-17 23:43:42 INFO  main:29 - Thread1 finished work for 6
+2019-06-17 23:43:42 INFO  main:23 - Thread1 started work for 1
+2019-06-17 23:43:42 INFO  main:23 - Thread1 started work for 1
+2019-06-17 23:43:42 INFO  main:29 - Thread1 finished work for 1
+2019-06-17 23:43:42 INFO  main:23 - Thread1 started work for 1
+2019-06-17 23:43:42 INFO  main:29 - Thread1 finished work for 1
+2019-06-17 23:43:42 INFO  main:23 - Thread1 started work for 6
+2019-06-17 23:43:42 INFO  main:23 - Thread1 started work for 1
+2019-06-17 23:43:42 INFO  main:29 - Thread1 finished work for 1
+2019-06-17 23:43:42 INFO  main:23 - Thread1 started work for 6
+2019-06-17 23:43:42 INFO  main:29 - Thread1 finished work for 6
+2019-06-17 23:43:42 INFO  Main:40 - The matrix after diagonal multithreading:
+2019-06-17 23:43:42 INFO  Main:41 - 
+[0, 10, 2, 3, 4, 5, 10, 7, 8, 9]
+[10, 0, 2, 3, 4, 10, 6, 7, 8, 9]
+[1, 2, 0, 3, 10, 5, 6, 7, 8, 9]
+[1, 2, 3, 10, 4, 5, 6, 7, 8, 9]
+[1, 2, 10, 4, 0, 5, 6, 7, 8, 9]
+[1, 10, 3, 4, 5, 0, 6, 7, 8, 9]
+[10, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:43:42 INFO  main:23 - Thread3 started work for 3
+2019-06-17 23:43:42 INFO  main:29 - Thread3 finished work for 3
+2019-06-17 23:43:42 INFO  main:23 - Thread3 started work for 8
+2019-06-17 23:43:42 INFO  main:29 - Thread3 finished work for 8
+2019-06-17 23:43:42 INFO  main:23 - Thread3 started work for 3
+2019-06-17 23:43:42 INFO  main:23 - Thread3 started work for 3
+2019-06-17 23:43:42 INFO  main:29 - Thread3 finished work for 3
+2019-06-17 23:43:42 INFO  main:23 - Thread2 started work for 2
+2019-06-17 23:43:42 INFO  main:29 - Thread2 finished work for 2
+2019-06-17 23:43:42 INFO  main:23 - Thread2 started work for 7
+2019-06-17 23:43:42 INFO  main:29 - Thread2 finished work for 7
+2019-06-17 23:43:42 INFO  main:23 - Thread5 started work for 5
+2019-06-17 23:43:42 INFO  main:29 - Thread5 finished work for 5
+2019-06-17 23:43:42 INFO  main:23 - Thread5 started work for 10
+2019-06-17 23:43:42 INFO  main:29 - Thread5 finished work for 10
+2019-06-17 23:43:42 INFO  main:29 - Thread1 finished work for 6
+2019-06-17 23:43:42 INFO  main:23 - Thread2 started work for 2
+2019-06-17 23:43:42 INFO  main:29 - Thread2 finished work for 2
+2019-06-17 23:43:42 INFO  main:23 - Thread2 started work for 7
+2019-06-17 23:43:42 INFO  main:23 - Thread2 started work for 2
+2019-06-17 23:43:42 INFO  main:29 - Thread2 finished work for 2
+2019-06-17 23:43:42 INFO  main:23 - Thread2 started work for 7
+2019-06-17 23:43:42 INFO  main:29 - Thread2 finished work for 7
+2019-06-17 23:43:42 INFO  main:23 - Thread2 started work for 2
+2019-06-17 23:43:42 INFO  main:29 - Thread2 finished work for 2
+2019-06-17 23:43:42 INFO  main:23 - Thread1 started work for 6
+2019-06-17 23:43:42 INFO  main:29 - Thread1 finished work for 6
+2019-06-17 23:43:42 INFO  main:23 - Thread2 started work for 2
+2019-06-17 23:43:42 INFO  main:29 - Thread1 finished work for 1
+2019-06-17 23:43:42 INFO  main:29 - Thread2 finished work for 2
+2019-06-17 23:43:42 INFO  main:23 - Thread2 started work for 7
+2019-06-17 23:43:42 INFO  main:29 - Thread2 finished work for 7
+2019-06-17 23:43:42 INFO  main:23 - Thread5 started work for 5
+2019-06-17 23:43:42 INFO  main:23 - Thread4 started work for 4
+2019-06-17 23:43:42 INFO  main:23 - Thread3 started work for 3
+2019-06-17 23:43:42 INFO  main:23 - Thread5 started work for 5
+2019-06-17 23:43:42 INFO  main:29 - Thread5 finished work for 5
+2019-06-17 23:43:42 INFO  main:23 - Thread5 started work for 10
+2019-06-17 23:43:42 INFO  main:29 - Thread5 finished work for 10
+2019-06-17 23:43:42 INFO  main:23 - Thread5 started work for 5
+2019-06-17 23:43:42 INFO  main:29 - Thread5 finished work for 5
+2019-06-17 23:43:42 INFO  main:23 - Thread5 started work for 10
+2019-06-17 23:43:42 INFO  main:29 - Thread5 finished work for 10
+2019-06-17 23:43:42 INFO  main:23 - Thread5 started work for 5
+2019-06-17 23:43:42 INFO  main:29 - Thread5 finished work for 5
+2019-06-17 23:43:42 INFO  main:23 - Thread4 started work for 4
+2019-06-17 23:43:42 INFO  main:23 - Thread4 started work for 4
+2019-06-17 23:43:42 INFO  main:23 - Thread3 started work for 8
+2019-06-17 23:43:42 INFO  main:29 - Thread3 finished work for 8
+2019-06-17 23:43:42 INFO  main:23 - Thread4 started work for 4
+2019-06-17 23:43:42 INFO  main:29 - Thread4 finished work for 4
+2019-06-17 23:43:42 INFO  main:23 - Thread4 started work for 9
+2019-06-17 23:43:42 INFO  main:29 - Thread4 finished work for 9
+2019-06-17 23:43:42 INFO  main:23 - Thread4 started work for 4
+2019-06-17 23:43:42 INFO  main:29 - Thread4 finished work for 4
+2019-06-17 23:43:42 INFO  main:23 - Thread4 started work for 9
+2019-06-17 23:43:42 INFO  main:29 - Thread4 finished work for 9
+2019-06-17 23:43:42 INFO  main:29 - Thread3 finished work for 3
+2019-06-17 23:43:42 INFO  main:23 - Thread3 started work for 3
+2019-06-17 23:43:42 INFO  main:23 - Thread3 started work for 8
+2019-06-17 23:43:42 INFO  main:29 - Thread3 finished work for 8
+2019-06-17 23:43:42 INFO  main:29 - Thread4 finished work for 4
+2019-06-17 23:43:42 INFO  main:29 - Thread4 finished work for 4
+2019-06-17 23:43:42 INFO  main:23 - Thread5 started work for 10
+2019-06-17 23:43:42 INFO  main:29 - Thread3 finished work for 3
+2019-06-17 23:43:42 INFO  main:29 - Thread4 finished work for 4
+2019-06-17 23:43:42 INFO  main:29 - Thread5 finished work for 5
+2019-06-17 23:43:42 INFO  main:29 - Thread2 finished work for 7
+2019-06-17 23:43:42 INFO  main:23 - Thread2 started work for 7
+2019-06-17 23:43:42 INFO  main:23 - Thread1 started work for 6
+2019-06-17 23:43:42 INFO  main:29 - Thread2 finished work for 7
+2019-06-17 23:43:42 INFO  main:23 - Thread5 started work for 10
+2019-06-17 23:43:42 INFO  main:23 - Thread4 started work for 9
+2019-06-17 23:43:42 INFO  main:23 - Thread3 started work for 8
+2019-06-17 23:43:42 INFO  main:29 - Thread5 finished work for 10
+2019-06-17 23:43:42 INFO  main:23 - Thread4 started work for 9
+2019-06-17 23:43:42 INFO  main:23 - Thread4 started work for 9
+2019-06-17 23:43:42 INFO  main:29 - Thread3 finished work for 3
+2019-06-17 23:43:42 INFO  main:29 - Thread4 finished work for 9
+2019-06-17 23:43:42 INFO  main:29 - Thread4 finished work for 9
+2019-06-17 23:43:42 INFO  main:29 - Thread3 finished work for 8
+2019-06-17 23:43:42 INFO  main:29 - Thread4 finished work for 9
+2019-06-17 23:43:42 INFO  main:29 - Thread5 finished work for 10
+2019-06-17 23:43:42 INFO  main:29 - Thread1 finished work for 6
+2019-06-17 23:43:42 INFO  main:23 - Thread3 started work for 8
+2019-06-17 23:43:42 INFO  main:29 - Thread3 finished work for 8
+2019-06-17 23:46:53 INFO  Main:31 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:46:53 INFO  Main:32 - Filling main diagonal of the matrix by multithreading...
+
+2019-06-17 23:46:53 INFO  Main:40 - The matrix after diagonal multithreading:
+2019-06-17 23:46:53 INFO  Main:41 - 
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:46:53 INFO  main:25 - Thread1 started work for 1
+2019-06-17 23:46:53 INFO  main:31 - Thread1 finished work for 1
+2019-06-17 23:46:53 INFO  main:25 - Thread2 started work for 2
+2019-06-17 23:46:53 INFO  main:31 - Thread2 finished work for 2
+2019-06-17 23:46:53 INFO  main:25 - Thread1 started work for 1
+2019-06-17 23:46:53 INFO  main:31 - Thread1 finished work for 1
+2019-06-17 23:46:53 INFO  main:25 - Thread1 started work for 6
+2019-06-17 23:46:53 INFO  main:31 - Thread1 finished work for 6
+2019-06-17 23:46:53 INFO  main:25 - Thread5 started work for 5
+2019-06-17 23:46:53 INFO  main:31 - Thread5 finished work for 5
+2019-06-17 23:46:53 INFO  main:25 - Thread5 started work for 10
+2019-06-17 23:46:53 INFO  main:31 - Thread5 finished work for 10
+2019-06-17 23:46:53 INFO  main:25 - Thread1 started work for 1
+2019-06-17 23:46:53 INFO  main:31 - Thread1 finished work for 1
+2019-06-17 23:46:53 INFO  main:25 - Thread5 started work for 5
+2019-06-17 23:46:53 INFO  main:25 - Thread1 started work for 1
+2019-06-17 23:46:53 INFO  main:31 - Thread1 finished work for 1
+2019-06-17 23:46:53 INFO  main:25 - Thread1 started work for 1
+2019-06-17 23:46:53 INFO  main:25 - Thread1 started work for 6
+2019-06-17 23:46:53 INFO  main:31 - Thread5 finished work for 5
+2019-06-17 23:46:53 INFO  main:25 - Thread1 started work for 6
+2019-06-17 23:46:53 INFO  main:25 - Thread5 started work for 5
+2019-06-17 23:46:53 INFO  main:25 - Thread5 started work for 5
+2019-06-17 23:46:53 INFO  main:25 - Thread5 started work for 5
+2019-06-17 23:46:53 INFO  main:31 - Thread5 finished work for 5
+2019-06-17 23:46:53 INFO  main:25 - Thread5 started work for 10
+2019-06-17 23:46:53 INFO  main:31 - Thread5 finished work for 10
+2019-06-17 23:46:53 INFO  main:25 - Thread4 started work for 4
+2019-06-17 23:46:53 INFO  main:25 - Thread4 started work for 4
+2019-06-17 23:46:53 INFO  main:25 - Thread4 started work for 4
+2019-06-17 23:46:53 INFO  main:25 - Thread2 started work for 7
+2019-06-17 23:46:53 INFO  main:25 - Thread4 started work for 4
+2019-06-17 23:46:53 INFO  main:25 - Thread4 started work for 4
+2019-06-17 23:46:53 INFO  main:25 - Thread3 started work for 3
+2019-06-17 23:46:53 INFO  main:25 - Thread3 started work for 3
+2019-06-17 23:46:53 INFO  main:25 - Thread3 started work for 3
+2019-06-17 23:46:53 INFO  main:31 - Thread3 finished work for 3
+2019-06-17 23:46:53 INFO  main:25 - Thread3 started work for 3
+2019-06-17 23:46:53 INFO  main:25 - Thread3 started work for 3
+2019-06-17 23:46:53 INFO  main:25 - Thread2 started work for 2
+2019-06-17 23:46:53 INFO  main:25 - Thread2 started work for 2
+2019-06-17 23:46:53 INFO  main:25 - Thread2 started work for 2
+2019-06-17 23:46:53 INFO  main:31 - Thread2 finished work for 2
+2019-06-17 23:46:53 INFO  main:25 - Thread1 started work for 6
+2019-06-17 23:46:53 INFO  main:25 - Thread2 started work for 2
+2019-06-17 23:46:53 INFO  main:31 - Thread1 finished work for 6
+2019-06-17 23:46:53 INFO  main:25 - Thread2 started work for 7
+2019-06-17 23:46:53 INFO  main:31 - Thread2 finished work for 7
+2019-06-17 23:46:53 INFO  main:31 - Thread2 finished work for 2
+2019-06-17 23:46:53 INFO  main:31 - Thread2 finished work for 2
+2019-06-17 23:46:53 INFO  main:25 - Thread2 started work for 7
+2019-06-17 23:46:53 INFO  main:31 - Thread2 finished work for 7
+2019-06-17 23:46:53 INFO  main:31 - Thread3 finished work for 3
+2019-06-17 23:46:53 INFO  main:25 - Thread3 started work for 8
+2019-06-17 23:46:53 INFO  main:31 - Thread3 finished work for 8
+2019-06-17 23:46:53 INFO  main:31 - Thread3 finished work for 3
+2019-06-17 23:46:53 INFO  main:25 - Thread3 started work for 8
+2019-06-17 23:46:53 INFO  main:31 - Thread3 finished work for 8
+2019-06-17 23:46:53 INFO  main:25 - Thread3 started work for 8
+2019-06-17 23:46:53 INFO  main:31 - Thread3 finished work for 8
+2019-06-17 23:46:53 INFO  main:31 - Thread3 finished work for 3
+2019-06-17 23:46:53 INFO  main:25 - Thread3 started work for 8
+2019-06-17 23:46:53 INFO  main:31 - Thread3 finished work for 8
+2019-06-17 23:46:53 INFO  main:31 - Thread3 finished work for 3
+2019-06-17 23:46:53 INFO  main:25 - Thread3 started work for 8
+2019-06-17 23:46:53 INFO  main:31 - Thread3 finished work for 8
+2019-06-17 23:46:53 INFO  main:31 - Thread4 finished work for 4
+2019-06-17 23:46:53 INFO  main:25 - Thread4 started work for 9
+2019-06-17 23:46:53 INFO  main:31 - Thread4 finished work for 9
+2019-06-17 23:46:53 INFO  main:31 - Thread4 finished work for 4
+2019-06-17 23:46:53 INFO  main:25 - Thread4 started work for 9
+2019-06-17 23:46:53 INFO  main:31 - Thread4 finished work for 9
+2019-06-17 23:46:53 INFO  main:31 - Thread2 finished work for 7
+2019-06-17 23:46:53 INFO  main:31 - Thread4 finished work for 4
+2019-06-17 23:46:53 INFO  main:25 - Thread4 started work for 9
+2019-06-17 23:46:53 INFO  main:31 - Thread4 finished work for 9
+2019-06-17 23:46:53 INFO  main:31 - Thread4 finished work for 4
+2019-06-17 23:46:53 INFO  main:25 - Thread4 started work for 9
+2019-06-17 23:46:53 INFO  main:31 - Thread4 finished work for 9
+2019-06-17 23:46:53 INFO  main:31 - Thread4 finished work for 4
+2019-06-17 23:46:53 INFO  main:31 - Thread5 finished work for 5
+2019-06-17 23:46:53 INFO  main:25 - Thread5 started work for 10
+2019-06-17 23:46:53 INFO  main:31 - Thread5 finished work for 10
+2019-06-17 23:46:53 INFO  main:31 - Thread5 finished work for 5
+2019-06-17 23:46:53 INFO  main:25 - Thread5 started work for 10
+2019-06-17 23:46:53 INFO  main:31 - Thread5 finished work for 10
+2019-06-17 23:46:53 INFO  main:31 - Thread1 finished work for 6
+2019-06-17 23:46:53 INFO  main:25 - Thread5 started work for 10
+2019-06-17 23:46:53 INFO  main:31 - Thread5 finished work for 10
+2019-06-17 23:46:53 INFO  main:31 - Thread1 finished work for 6
+2019-06-17 23:46:53 INFO  main:31 - Thread1 finished work for 1
+2019-06-17 23:46:53 INFO  main:25 - Thread1 started work for 6
+2019-06-17 23:46:53 INFO  main:31 - Thread1 finished work for 6
+2019-06-17 23:46:53 INFO  main:25 - Thread4 started work for 9
+2019-06-17 23:46:53 INFO  main:31 - Thread4 finished work for 9
+2019-06-17 23:46:53 INFO  main:25 - Thread2 started work for 7
+2019-06-17 23:46:53 INFO  main:31 - Thread2 finished work for 7
+2019-06-17 23:46:53 INFO  main:31 - Thread2 finished work for 2
+2019-06-17 23:46:53 INFO  main:25 - Thread2 started work for 7
+2019-06-17 23:46:53 INFO  main:31 - Thread2 finished work for 7
+2019-06-17 23:48:23 INFO  Main:31 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:48:23 INFO  Main:32 - Filling main diagonal of the matrix by multithreading...
+
+2019-06-17 23:48:23 INFO  main:25 - Thread1 started work for 1
+2019-06-17 23:48:23 INFO  main:25 - Thread1 started work for 1
+2019-06-17 23:48:23 INFO  main:25 - Thread1 started work for 1
+2019-06-17 23:48:23 INFO  main:31 - Thread1 finished work for 1
+2019-06-17 23:48:23 INFO  main:25 - Thread1 started work for 1
+2019-06-17 23:48:23 INFO  main:25 - Thread1 started work for 1
+2019-06-17 23:48:23 INFO  main:31 - Thread1 finished work for 1
+2019-06-17 23:48:23 INFO  main:25 - Thread5 started work for 5
+2019-06-17 23:48:23 INFO  main:25 - Thread5 started work for 5
+2019-06-17 23:48:23 INFO  main:25 - Thread5 started work for 5
+2019-06-17 23:48:23 INFO  main:25 - Thread5 started work for 5
+2019-06-17 23:48:23 INFO  main:31 - Thread5 finished work for 5
+2019-06-17 23:48:23 INFO  main:25 - Thread5 started work for 5
+2019-06-17 23:48:23 INFO  main:31 - Thread5 finished work for 5
+2019-06-17 23:48:23 INFO  main:25 - Thread4 started work for 4
+2019-06-17 23:48:23 INFO  main:31 - Thread4 finished work for 4
+2019-06-17 23:48:23 INFO  main:25 - Thread4 started work for 4
+2019-06-17 23:48:23 INFO  main:25 - Thread4 started work for 4
+2019-06-17 23:48:23 INFO  main:25 - Thread4 started work for 4
+2019-06-17 23:48:23 INFO  main:25 - Thread4 started work for 4
+2019-06-17 23:48:23 INFO  main:25 - Thread3 started work for 3
+2019-06-17 23:48:23 INFO  main:25 - Thread3 started work for 3
+2019-06-17 23:48:23 INFO  main:25 - Thread3 started work for 3
+2019-06-17 23:48:23 INFO  main:25 - Thread3 started work for 3
+2019-06-17 23:48:23 INFO  main:25 - Thread3 started work for 3
+2019-06-17 23:48:23 INFO  Main:40 - The matrix after diagonal multithreading:
+2019-06-17 23:48:23 INFO  main:25 - Thread2 started work for 2
+2019-06-17 23:48:23 INFO  main:25 - Thread2 started work for 2
+2019-06-17 23:48:23 INFO  main:31 - Thread2 finished work for 2
+2019-06-17 23:48:23 INFO  main:25 - Thread2 started work for 2
+2019-06-17 23:48:23 INFO  main:31 - Thread1 finished work for 1
+2019-06-17 23:48:23 INFO  main:25 - Thread2 started work for 2
+2019-06-17 23:48:23 INFO  main:25 - Thread2 started work for 2
+2019-06-17 23:48:23 INFO  main:31 - Thread1 finished work for 1
+2019-06-17 23:48:23 INFO  main:31 - Thread2 finished work for 2
+2019-06-17 23:48:23 INFO  main:31 - Thread2 finished work for 2
+2019-06-17 23:48:23 INFO  main:31 - Thread2 finished work for 2
+2019-06-17 23:48:23 INFO  main:31 - Thread2 finished work for 2
+2019-06-17 23:48:23 INFO  Main:41 - 
+[0, 22, 2, 0, 8, 59, 6, 7, 8, 9]
+[22, 0, 0, 8, 59, 5, 6, 7, 8, 9]
+[1, 0, 8, 59, 4, 5, 6, 7, 8, 9]
+[0, 8, 59, 0, 4, 5, 6, 7, 8, 9]
+[8, 59, 3, 4, 0, 5, 6, 7, 8, 9]
+[59, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:48:23 INFO  main:31 - Thread3 finished work for 3
+2019-06-17 23:48:23 INFO  main:31 - Thread3 finished work for 3
+2019-06-17 23:48:23 INFO  main:31 - Thread3 finished work for 3
+2019-06-17 23:48:23 INFO  main:31 - Thread3 finished work for 3
+2019-06-17 23:48:23 INFO  main:31 - Thread3 finished work for 3
+2019-06-17 23:48:23 INFO  main:31 - Thread4 finished work for 4
+2019-06-17 23:48:23 INFO  main:31 - Thread4 finished work for 4
+2019-06-17 23:48:23 INFO  main:31 - Thread4 finished work for 4
+2019-06-17 23:48:23 INFO  main:31 - Thread4 finished work for 4
+2019-06-17 23:48:23 INFO  main:31 - Thread5 finished work for 5
+2019-06-17 23:48:23 INFO  main:31 - Thread5 finished work for 5
+2019-06-17 23:48:23 INFO  main:31 - Thread5 finished work for 5
+2019-06-17 23:48:23 INFO  main:31 - Thread1 finished work for 1
+2019-06-17 23:49:24 INFO  Main:31 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:49:24 INFO  Main:32 - Filling main diagonal of the matrix by multithreading...
+
+2019-06-17 23:49:24 INFO  main:25 - Thread1 started work for 1
+2019-06-17 23:49:24 INFO  main:25 - Thread2 started work for 2
+2019-06-17 23:49:24 INFO  Main:36 - The matrix after diagonal multithreading:
+2019-06-17 23:49:24 INFO  main:31 - Thread2 finished work for 2
+2019-06-17 23:49:24 INFO  main:31 - Thread1 finished work for 1
+2019-06-17 23:49:24 INFO  Main:37 - 
+[0, 1, 45, 3, 4, 5, 6, 7, 8, 9]
+[1, 45, 2, 3, 4, 5, 6, 7, 8, 9]
+[45, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:49:24 INFO  main:25 - Thread7 started work for 7
+2019-06-17 23:49:24 INFO  main:31 - Thread7 finished work for 7
+2019-06-17 23:49:24 INFO  main:25 - Thread9 started work for 9
+2019-06-17 23:49:24 INFO  main:25 - Thread6 started work for 6
+2019-06-17 23:49:24 INFO  main:25 - Thread5 started work for 5
+2019-06-17 23:49:24 INFO  main:31 - Thread5 finished work for 5
+2019-06-17 23:49:24 INFO  main:25 - Thread4 started work for 4
+2019-06-17 23:49:24 INFO  main:25 - Thread3 started work for 3
+2019-06-17 23:49:24 INFO  main:31 - Thread3 finished work for 3
+2019-06-17 23:49:24 INFO  main:31 - Thread4 finished work for 4
+2019-06-17 23:49:24 INFO  main:31 - Thread6 finished work for 6
+2019-06-17 23:49:24 INFO  main:31 - Thread9 finished work for 9
+2019-06-17 23:49:24 INFO  main:25 - Thread8 started work for 8
+2019-06-17 23:49:24 INFO  main:31 - Thread8 finished work for 8
+2019-06-17 23:51:15 INFO  Main:31 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:51:15 INFO  Main:32 - Filling main diagonal of the matrix by multithreading...
+
+2019-06-17 23:51:15 INFO  main:25 - Thread1 started work for 1
+2019-06-17 23:51:15 INFO  Main:38 - The matrix after diagonal multithreading:
+2019-06-17 23:51:15 INFO  main:31 - Thread1 finished work for 1
+2019-06-17 23:51:15 INFO  Main:39 - 
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:51:15 INFO  main:25 - Thread2 started work for 2
+2019-06-17 23:51:15 INFO  main:25 - Thread5 started work for 5
+2019-06-17 23:51:15 INFO  main:25 - Thread4 started work for 4
+2019-06-17 23:51:15 INFO  main:25 - Thread3 started work for 3
+2019-06-17 23:51:15 INFO  main:31 - Thread4 finished work for 4
+2019-06-17 23:51:15 INFO  main:31 - Thread5 finished work for 5
+2019-06-17 23:51:15 INFO  main:31 - Thread2 finished work for 2
+2019-06-17 23:51:15 INFO  main:31 - Thread3 finished work for 3
+2019-06-17 23:52:12 INFO  Main:31 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:52:12 INFO  Main:32 - Filling main diagonal of the matrix by multithreading...
+
+2019-06-17 23:52:12 INFO  Main:38 - The matrix after diagonal multithreading:
+2019-06-17 23:52:12 INFO  Main:39 - 
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:52:12 INFO  main:25 - Thread1 started work for 1
+2019-06-17 23:52:12 INFO  main:25 - Thread3 started work for 3
+2019-06-17 23:52:12 INFO  main:25 - Thread2 started work for 2
+2019-06-17 23:52:12 INFO  main:25 - Thread5 started work for 5
+2019-06-17 23:52:12 INFO  main:31 - Thread3 finished work for 3
+2019-06-17 23:52:12 INFO  main:25 - Thread4 started work for 4
+2019-06-17 23:52:12 INFO  main:31 - Thread1 finished work for 1
+2019-06-17 23:52:12 INFO  main:31 - Thread4 finished work for 4
+2019-06-17 23:52:12 INFO  main:25 - Thread3 started work for 8
+2019-06-17 23:52:12 INFO  main:31 - Thread5 finished work for 5
+2019-06-17 23:52:12 INFO  main:31 - Thread2 finished work for 2
+2019-06-17 23:52:12 INFO  main:25 - Thread5 started work for 10
+2019-06-17 23:52:12 INFO  main:31 - Thread3 finished work for 8
+2019-06-17 23:52:12 INFO  main:25 - Thread4 started work for 9
+2019-06-17 23:52:12 INFO  main:31 - Thread4 finished work for 9
+2019-06-17 23:52:12 INFO  main:25 - Thread1 started work for 6
+2019-06-17 23:52:12 INFO  main:31 - Thread5 finished work for 10
+2019-06-17 23:52:12 INFO  main:25 - Thread2 started work for 7
+2019-06-17 23:52:12 INFO  main:31 - Thread1 finished work for 6
+2019-06-17 23:52:12 INFO  main:31 - Thread2 finished work for 7
+2019-06-17 23:54:36 INFO  Main:31 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:54:36 INFO  Main:32 - Filling main diagonal of the matrix by multithreading...
+
+2019-06-17 23:54:36 INFO  Main:38 - The matrix after diagonal multithreading:
+2019-06-17 23:54:36 INFO  Main:39 - 
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-17 23:54:36 INFO  main:25 - Thread1 started work for 1
+2019-06-17 23:54:36 INFO  main:31 - Thread1 finished work for 1
+2019-06-17 23:54:36 INFO  main:25 - Thread2 started work for 2
+2019-06-17 23:54:36 INFO  main:25 - Thread3 started work for 3
+2019-06-17 23:54:36 INFO  main:31 - Thread2 finished work for 2
+2019-06-17 23:54:36 INFO  main:31 - Thread3 finished work for 3
+2019-06-17 23:54:36 INFO  main:25 - Thread4 started work for 4
+2019-06-17 23:54:36 INFO  main:31 - Thread4 finished work for 4
+2019-06-17 23:54:36 INFO  main:25 - Thread5 started work for 5
+2019-06-17 23:54:36 INFO  main:31 - Thread5 finished work for 5
+2019-06-18 00:07:25 INFO  Main:31 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-18 00:07:25 INFO  Main:32 - Filling main diagonal of the matrix by multithreading...
+
+2019-06-18 00:07:25 INFO  main:25 - Thread1 started work for 1
+2019-06-18 00:07:25 INFO  Main:38 - The matrix after diagonal multithreading:
+2019-06-18 00:07:25 INFO  main:25 - Thread2 started work for 2
+2019-06-18 00:07:25 INFO  main:31 - Thread1 finished work for 1
+2019-06-18 00:07:25 INFO  main:25 - Thread1 started work for 6
+2019-06-18 00:07:25 INFO  Main:39 - 
+[0, 63, 2, 3, 4, 5, 6, 7, 8, 9]
+[63, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-18 00:07:25 INFO  main:31 - Thread2 finished work for 2
+2019-06-18 00:07:25 INFO  main:31 - Thread1 finished work for 6
+2019-06-18 00:07:25 INFO  main:25 - Thread5 started work for 5
+2019-06-18 00:07:25 INFO  main:25 - Thread4 started work for 4
+2019-06-18 00:07:25 INFO  main:25 - Thread3 started work for 3
+2019-06-18 00:07:25 INFO  main:31 - Thread4 finished work for 4
+2019-06-18 00:07:25 INFO  main:31 - Thread5 finished work for 5
+2019-06-18 00:07:25 INFO  main:25 - Thread2 started work for 7
+2019-06-18 00:07:25 INFO  main:25 - Thread5 started work for 10
+2019-06-18 00:07:25 INFO  main:25 - Thread4 started work for 9
+2019-06-18 00:07:25 INFO  main:31 - Thread3 finished work for 3
+2019-06-18 00:07:25 INFO  main:31 - Thread4 finished work for 9
+2019-06-18 00:07:25 INFO  main:31 - Thread5 finished work for 10
+2019-06-18 00:07:25 INFO  main:31 - Thread2 finished work for 7
+2019-06-18 00:07:25 INFO  main:25 - Thread3 started work for 8
+2019-06-18 00:07:25 INFO  main:31 - Thread3 finished work for 8
+2019-06-18 00:08:16 INFO  Main:31 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-18 00:08:16 INFO  Main:32 - Filling main diagonal of the matrix by multithreading...
+
+2019-06-18 00:08:16 INFO  main:25 - Thread1 started work for 1
+2019-06-18 00:08:16 INFO  Main:38 - The matrix after diagonal multithreading:
+2019-06-18 00:08:16 INFO  main:31 - Thread1 finished work for 1
+2019-06-18 00:08:16 INFO  main:25 - Thread2 started work for 2
+2019-06-18 00:08:16 INFO  Main:39 - 
+[0, 82, 2, 3, 4, 5, 6, 7, 8, 9]
+[82, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-18 00:08:16 INFO  main:25 - Thread5 started work for 5
+2019-06-18 00:08:16 INFO  main:31 - Thread2 finished work for 2
+2019-06-18 00:08:16 INFO  main:25 - Thread4 started work for 4
+2019-06-18 00:08:16 INFO  main:25 - Thread3 started work for 3
+2019-06-18 00:08:16 INFO  main:25 - Thread1 started work for 6
+2019-06-18 00:08:16 INFO  main:31 - Thread3 finished work for 3
+2019-06-18 00:08:16 INFO  main:31 - Thread4 finished work for 4
+2019-06-18 00:08:16 INFO  main:25 - Thread2 started work for 7
+2019-06-18 00:08:16 INFO  main:31 - Thread2 finished work for 7
+2019-06-18 00:08:16 INFO  main:31 - Thread5 finished work for 5
+2019-06-18 00:08:16 INFO  main:25 - Thread4 started work for 9
+2019-06-18 00:08:16 INFO  main:25 - Thread3 started work for 8
+2019-06-18 00:08:16 INFO  main:31 - Thread1 finished work for 6
+2019-06-18 00:08:16 INFO  main:31 - Thread3 finished work for 8
+2019-06-18 00:08:16 INFO  main:31 - Thread4 finished work for 9
+2019-06-18 00:08:16 INFO  main:25 - Thread5 started work for 10
+2019-06-18 00:08:16 INFO  main:31 - Thread5 finished work for 10
+2019-06-18 00:12:27 INFO  Main:31 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-18 00:12:27 INFO  Main:32 - Filling main diagonal of the matrix by multithreading...
+
+2019-06-18 00:12:27 INFO  main:25 - Thread1 started work for 1 with 96
+2019-06-18 00:12:27 INFO  Main:38 - The matrix after diagonal multithreading:
+2019-06-18 00:12:27 INFO  main:25 - Thread3 started work for 3 with 32
+2019-06-18 00:12:27 INFO  main:31 - Thread1 finished work for 1 with 96
+2019-06-18 00:12:27 INFO  Main:39 - 
+[0, 96, 2, 3, 4, 5, 6, 7, 8, 9]
+[96, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-18 00:12:27 INFO  main:25 - Thread2 started work for 2 with 79
+2019-06-18 00:12:27 INFO  main:25 - Thread5 started work for 5 with 52
+2019-06-18 00:12:27 INFO  main:25 - Thread4 started work for 4 with 65
+2019-06-18 00:12:27 INFO  main:25 - Thread1 started work for 6 with 96
+2019-06-18 00:12:27 INFO  main:31 - Thread3 finished work for 3 with 32
+2019-06-18 00:12:27 INFO  main:31 - Thread1 finished work for 6 with 96
+2019-06-18 00:12:27 INFO  main:31 - Thread4 finished work for 4 with 65
+2019-06-18 00:12:27 INFO  main:25 - Thread4 started work for 9 with 65
+2019-06-18 00:12:27 INFO  main:31 - Thread5 finished work for 5 with 52
+2019-06-18 00:12:27 INFO  main:31 - Thread2 finished work for 2 with 79
+2019-06-18 00:12:27 INFO  main:25 - Thread2 started work for 7 with 79
+2019-06-18 00:12:27 INFO  main:31 - Thread2 finished work for 7 with 79
+2019-06-18 00:12:27 INFO  main:25 - Thread5 started work for 10 with 52
+2019-06-18 00:12:27 INFO  main:31 - Thread4 finished work for 9 with 65
+2019-06-18 00:12:27 INFO  main:25 - Thread3 started work for 8 with 32
+2019-06-18 00:12:27 INFO  main:31 - Thread5 finished work for 10 with 52
+2019-06-18 00:12:27 INFO  main:31 - Thread3 finished work for 8 with 32
+2019-06-18 00:23:25 INFO  Main:34 - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 0, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 0, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 0, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 0, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 0, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 0, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-18 00:23:25 INFO  Main:35 - Filling main diagonal of the matrix by multithreading...
+
+2019-06-18 00:23:25 INFO  main:25 - Thread2 started work for 2 with 76
+2019-06-18 00:23:25 INFO  main:25 - Thread3 started work for 3 with 15
+2019-06-18 00:23:25 INFO  main:31 - Thread3 finished work for 3 with 15
+2019-06-18 00:23:25 INFO  main:25 - Thread4 started work for 4 with 50
+2019-06-18 00:23:25 INFO  main:31 - Thread4 finished work for 4 with 50
+2019-06-18 00:23:25 INFO  main:25 - Thread4 started work for 9 with 50
+2019-06-18 00:23:25 INFO  Main:41 - The matrix after diagonal multithreading:
+2019-06-18 00:23:25 INFO  main:25 - Thread1 started work for 1 with 27
+2019-06-18 00:23:25 INFO  Main:42 - 
+[0, 1, 76, 15, 50, 5, 6, 7, 8, 50]
+[1, 76, 15, 50, 4, 5, 6, 7, 50, 9]
+[76, 15, 50, 3, 4, 5, 6, 50, 8, 9]
+[15, 50, 3, 0, 4, 5, 50, 7, 8, 9]
+[50, 2, 3, 4, 0, 50, 6, 7, 8, 9]
+[1, 2, 3, 4, 50, 0, 6, 7, 8, 9]
+[1, 2, 3, 50, 5, 6, 0, 7, 8, 9]
+[1, 2, 50, 4, 5, 6, 7, 0, 8, 9]
+[1, 50, 3, 4, 5, 6, 7, 8, 0, 9]
+[50, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+2019-06-18 00:23:25 INFO  main:31 - Thread4 finished work for 9 with 50
+2019-06-18 00:23:25 INFO  main:25 - Thread3 started work for 8 with 15
+2019-06-18 00:23:25 INFO  main:31 - Thread3 finished work for 8 with 15
+2019-06-18 00:23:25 INFO  main:31 - Thread2 finished work for 2 with 76
+2019-06-18 00:23:25 INFO  main:25 - Thread5 started work for 5 with 37
+2019-06-18 00:23:25 INFO  main:25 - Thread2 started work for 7 with 76
+2019-06-18 00:23:25 INFO  main:31 - Thread1 finished work for 1 with 27
+2019-06-18 00:23:25 INFO  main:25 - Thread1 started work for 6 with 27
+2019-06-18 00:23:25 INFO  main:31 - Thread2 finished work for 7 with 76
+2019-06-18 00:23:25 INFO  main:31 - Thread5 finished work for 5 with 37
+2019-06-18 00:23:25 INFO  main:25 - Thread5 started work for 10 with 37
+2019-06-18 00:23:25 INFO  main:31 - Thread1 finished work for 6 with 27
+2019-06-18 00:23:25 INFO  main:31 - Thread5 finished work for 10 with 37
